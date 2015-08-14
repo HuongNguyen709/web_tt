@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/manage.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+	body
+		div#general-manage 
+		.manage
+			div
+				h3 Subjects
+				a(class="add-new-subject" href="add-new-subject") Add New Subject
+			table
+				each subject in subs
+					tr.subject-container
+						td !{subject.name}
+						td
+							a(class = "view-subject" href = "view-subject/#{subject._id}") View
+							a(class = "delete-subject" href="#") Delete			
+		script(src="../js/index.js")

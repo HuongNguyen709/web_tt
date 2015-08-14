@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/manage.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="../js/index.js")
+	body
+		div#general-manage
+		.manage
+			h3 About
+			p Title
+				a(class="edit-title" href="#") Edit
+				div.change-title
+					form(action="/admin/title" method = "POST")
+						input(type= "text" name = "title" value="#{info.title}")
+						input(type="submit" value="Save")
+			p Contact:
+				a(class="edit-contact" href="#") Edit
+				div.change-contact
+					form(action ="/admin/contact" method="POST")
+						textarea(id="contact" name = "contact" value="#{conta.contact}")
+						input(type="submit" value="Save")

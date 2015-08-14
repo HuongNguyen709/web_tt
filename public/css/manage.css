@@ -1,0 +1,501 @@
+body{
+	background-color: white;
+}
+	/*------------------*/
+	/* Login Success*/
+	/*------------------*/
+.subject-container{
+	line-height: 30px;
+}
+.view-subject{
+	margin-left: 50px;
+}
+.delete-subject{
+	margin-left: 50px;
+}
+#subjects{
+	width: 200px;
+	float: left;
+	line-height: 30px;
+}
+#edit-subject{
+	width: 100px;
+	line-height: 30px;
+	float: left;
+	
+}
+.view-subject{
+	text-decoration: none;
+	
+}
+.delete-subject{
+	text-decoration: none;
+}
+	/*-------------------*/
+	
+	/*-------------------*/
+#content-slide{
+	position: relative;
+	margin-top: 60px;
+}
+.delete-data{
+	margin-left: 100px;
+}
+.edit-data{
+	margin-left: 50px;
+}
+.delete-cn{
+	margin-left: 155px;
+}
+.edit-cn{
+	margin-left: 50px;
+}
+.delete-cg{
+	margin-left: 158px;
+}
+.edit-cg{
+	margin-left: 50px;
+}
+.add-new-subject{
+	text-decoration: none;
+}
+#home-ad{
+	margin-top: 145px;
+}
+#img-ava{
+	position: relative;
+	display: block;
+	float: right;
+	text-align:right;
+	height: 300px;
+	width: 250px;
+}
+#information{
+	position: relative;
+	font-size: 120%;
+	line-height: 25px;	
+}
+	/*--------------------------*/
+	/*-----Manage Account-------*/
+	/*--------------------------*/
+	/*----Name----*/
+.edit-name{
+	margin-left: 10px;
+}
+.edit-password{
+	
+	margin-left: 45px;
+}
+.change-name{
+	display: none;
+	margin-left: 100px;
+	line-height: 30px;
+}
+
+#firstname{
+	margin-left: 55px;
+}
+#lastname{
+	margin-left: 55px;
+}
+#nickname{
+	margin-left: 55px;
+}
+.save-name{
+	margin-left: 170px;
+}
+	/*---Password-----*/
+.save-password{
+	margin-left: 200px;
+}
+.change-password{
+	display: none;
+	margin-left: 100px;
+	line-height: 30px;
+}
+#current-password{
+		margin-left: 10px;
+}
+#new-password{
+	margin-left: 30px;
+}
+#repeat-password{
+	margin-left: 17px;
+}
+ /*---Avatar----*/
+.edit-avatar-img{
+	margin-left: 64px;
+}
+.change-avatar-img{
+	display: none;
+	margin-left: 230px;
+}
+#select-avatar-img{
+	margin-left: 80px;
+}
+	/*-------------------*/
+	/*----Manage About-----*/
+	/*-------------------*/
+	
+	/*--Title--*/
+.edit-title{
+	margin-left: 70px;
+}
+.change-title{
+	display: none;
+	margin-left: 100px;
+}
+#save-title{
+	display: none;
+	margin-left: 200px;
+}
+	/*--Contact--*/
+.change-contact{
+	display: none;
+	margin-left: 100px;
+	line-height: 30px;
+	
+}
+.edit-contact{
+	margin-left: 50px;
+}
+#contact{
+	width: 300px;
+	height: 200px;
+}
+#save-about{
+	display: none;
+	margin-left: 350px;
+}
+	/*--background image--*/
+.edit-background-img{
+	margin-left: 23px;
+}
+.change-background-img{
+	display: none;
+	margin-left: 150px;
+}
+#select-background-img{
+	margin-left: 80px;
+}
+
+	/*--------------------*/
+	/*  data_1 Slide data*/
+	/*--------------------*/
+#data_1{
+	display: inline-block;
+}
+#edit-slide-data{
+	display: none;
+}
+#p{
+	display: inline-block;
+	font-size: 20px;
+}
+.add-new-slide{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#slide-data {
+	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-slide-data{
+	line-height: 30px;
+	width: 120px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar-slide-data{
+	line-height: 30px;
+	width: 120px;
+	padding: 5px 15px;
+	float: left;
+}
+	/*------------------------*/
+	/* data_2 exercises data */
+	/*------------------------*/
+#data_2{
+	display: inline-block;
+}
+#edit-exercise-data{
+	display: none;
+}
+#exercise-data {
+	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-ex-data{
+	line-height: 30px;
+	width: 100px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+#sidebar-ex-data{
+	line-height: 30px;
+	width: 100px;
+	padding: 5px 15px;
+	float: left;
+}
+
+.add-new-exercise{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+	/*-----------------------*/
+	/* data_3 reference data -*/
+	/*-----------------------*/
+#data_3{
+	display: inline-block;
+}
+#edit-reference-data{
+	display: none;
+}
+#reference-data {
+	width: 300px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-reference-data{
+	line-height: 30px;
+	width: 50px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+#sidebar-reference-data{
+	line-height: 30px;
+	width: 50px;
+	padding: 5px 15px;
+	float: left;
+}
+
+.add-new-reference{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+	/*-------------------*/
+	/*-------- view-cn---*/
+	/*-------------------*/
+	/*--CN_1-----*/
+#cn_1{
+	display: inline-block;
+}
+#edit-slide-cn{
+	display: none;
+}
+#slide-cn{
+	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-slide-cn{
+	line-height: 30px;
+	width: 120px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar-slide-cn{
+	line-height: 30px;
+	width: 120px;
+	padding: 5px 15px;
+	float: left;
+}
+.add-new-slide{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+	/*----CN_2-----------*/
+#cn_2{
+	display: inline-block;
+}
+#edit-exercise-cn{
+	display: none;
+}
+.add-new-exercise{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#exercise-cn{
+	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-ex-cn{
+	line-height: 30px;
+	width: 120px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar-ex-cn{
+	line-height: 30px;
+	width: 120px;
+	padding: 5px 15px;
+	float: left;
+}
+	/*----CN_3--------*/
+#cn_3{
+	display: inline-block;
+}
+#edit-reference-cn{
+	display: none;
+}
+#reference-cn{
+	width: 300px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-reference-cn{
+	line-height: 30px;
+	width: 50px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+#sidebar-reference-cn{
+	line-height: 30px;
+	width: 50px;
+	padding: 5px 15px;
+	float: left;
+}
+
+.add-new-reference{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+	/*-------------------*/
+	/*-------- view-cn---*/
+	/*-------------------*/
+	/*--CG_1-----*/
+#cg_1{
+	display: inline-block;
+}
+#edit-slide-cg{
+	display: none;
+}
+#slide-cg{
+	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-slide-cg{
+	line-height: 30px;
+	width: 120px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar-slide-cg{
+	line-height: 30px;
+	width: 120px;
+	padding: 5px 15px;
+	float: left;
+}
+.add-new-slide{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+	/*----CG_2-----------*/
+	
+#cg_2{
+	display: inline-block;
+}
+#edit-exercise-cg{
+	display: none;
+}
+.add-new-exercise{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#exercise-cg{
+	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-ex-cg{
+	line-height: 30px;
+	width: 120px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar-ex-cg{
+	line-height: 30px;
+	width: 120px;
+	padding: 5px 15px;
+	float: left;
+}
+	/*----CG_3--------*/
+#cn_3{
+	display: inline-block;
+}
+#edit-reference-cg{
+	display: none;
+}
+#reference-cg{
+	width: 300px;
+	float: left;
+	padding: 5px 15px;
+	line-height: 30px;
+}
+#middle-reference-cg{
+	line-height: 30px;
+	width: 50px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+#sidebar-reference-cg{
+	line-height: 30px;
+	width: 50px;
+	padding: 5px 15px;
+	float: left;
+}
+
+.add-new-reference{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}

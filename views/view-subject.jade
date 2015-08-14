@@ -1,0 +1,24 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/manage.css")
+		link(rel="stylesheet" href="../css/font-awesome.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+	body
+		div#general-manage
+		.manage
+			h3 !{subject.name}
+				table
+					tr.view-container
+						td Lecture Sildes
+						td
+							a(class="add-new-slide" href="/add-new-slide/#{subject._id}") Add New Slide
+					tr
+						td Exercises
+						td
+							a(class="add-new-exercise" href="/add-new-exercise/#{subject._id}") Add New Exercise
+					tr
+						td References
+						td
+							a(class="add-new-reference" href="/add-new-reference/#{subject._id}") Add New Reference
+		script(src="../js/index.js")

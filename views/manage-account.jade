@@ -1,0 +1,45 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/manage.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="../js/index.js")
+	body
+		div#general-manage
+		.manage
+			h3 Account
+			p Huong Nguyen
+				a(class="edit-name" href="#") Edit
+				div.change-name
+					form(action ="/admin/name" method="POST")
+						key Firstname:
+						input(id="firstname" type="text" name="firstname")
+						br
+						key Lastname:
+						input(id="lastname" type ="text" name="lastname")
+						br
+						key Nickname:
+						input(id="nickname" type="text" name="nickname")
+						br
+						input(type="submit" value="Save")
+			p Password
+				a(class="edit-password" href="#") Edit
+				div.change-password
+					key Current password:
+					input(id="current-password" type="password" name="current-password")
+					br
+					key New password:
+					input(id="new-password" type="password" name="new-password")
+					br
+					key Repeat password:
+					input(id="repeat-password" type="password" name="repeat-password")
+					form
+						button(class="save-password" type="button") Save
+						button(class="cancel-password" type="button") Cancel
+		
+			p Avatar
+				a(class="edit-avatar-img" href="#") Edit
+				div.change-avatar-img
+					input(id="avatar-img" type="text" value=" ")
+					br
+					button(id="select-avatar-img" type="button") Select image

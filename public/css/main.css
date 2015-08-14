@@ -1,0 +1,112 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+	background-image:url(../img/background.jpg);
+	background-repeat: repeat;
+	text-align: center;
+}
+#homepage{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+}
+.left-home{
+	position: relative;
+	margin: 0;
+	vertical-align: top;
+	display: inline-block;
+	border-width: 2px;
+	border-style: groove;
+	width: 20%;
+	height:624px;
+	
+	border-color: violet;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: white;
+}
+#header-left-home{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+#header-left-home a{
+	position: relative;
+	text-decoration: none;
+}
+#search{
+	position: relative;
+	width: 173px;
+	height: 21px;
+}
+.subject-home{
+	position: relative;
+	vertical-align: top;
+	text-align: center;
+	line-height: 25px;
+}
+.view-subject{
+	display: none;
+}
+#body-left-home a{
+	position: relative;
+	text-decoration: none;
+	
+}
+.right-home{
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	border-style: groove;
+	width: 78%;
+	background-color: white;
+	height: 624px;
+	border-color: violet;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#header-right-home {
+	position: relative;
+	text-align: right;
+	margin-top: 2%;
+	margin-right: 4%;
+}
+#huongnguyen{
+	text-decoration: none;
+}
+#title-home{
+	position: relative;
+	text-align: center;
+	margin-top: 10%;
+}
+#contact-home{
+	position: relative;
+	text-align: center;
+	margin-top: 10%;
+}
+#content-slide{
+	line-height: 25px;
+	position: relative;
+	margin-left: 5%;
+}
+#content-slide a{
+	text-decoration: none;
+	font-size: 120%;
+	text-align: center;
+	margin-left: 100px;
+}
+#right-ex-data-test{
+	text-align: center;
+}
+#img-home{
+	position: relative;
+	width: 40px;
+}
+#manage{
+	display: none;
+}

@@ -1,0 +1,47 @@
+$(document).ready(function(){
+	
+	/*----VIEW-DATA-------*/
+	/*--------------------*/
+	$(".button-data_1").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-slide-data").slideToggle("slow");
+	});
+	$(".button-data_2").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-exercise-data").slideToggle("slow");
+	});
+	$(".button-data_3").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-reference-data").slideToggle("slow");
+	});
+	/*------VIEW-CN------*/
+	/*--------------------*/
+	$(".button-cn_1").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-slide-cn").slideToggle("slow");
+	});
+	$(".button-cn_2").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-exercise-cn").slideToggle("slow");
+	});
+	$(".button-cn_3").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-reference-cn").slideToggle("slow");
+	});
+	/*------VIEW-CG------*/
+	/*--------------------*/
+	$(".button-cg_1").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-slide-cg").slideToggle("slow");
+	});
+	$(".button-cg_2").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-exercise-cg").slideToggle("slow");
+	});
+	$(".button-cg_3").click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+		$("#edit-reference-cg").slideToggle("slow");
+	});
+	
+	
+});

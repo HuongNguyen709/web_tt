@@ -1,0 +1,34 @@
+doctype html
+html
+	head
+		title Huong's Home Page
+		link(rel='stylesheet' href='css/main.css')
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+		script(src='js/index.js')
+	body
+		div#homepage
+			div.left-home
+				div#header-left-home
+					a(class="home" href="#")
+						h2 Huong Nguyen
+					form
+						input(id="search" type="text" placeholder="search")
+				hr
+				div#body-left-home
+					each subject in subs
+						div.subject-home(data-subject="#{subject._id}")
+							h3 !{subject.name} 
+							br
+							a(class = "slide-subject" href = "#") Lecture Slides
+							br
+							a(class="exercise-subject" href="#") Exercises
+							br
+							a(class="reference-subject" href="#") References
+							br
+			div.right-home
+				div#header-right-home
+					a(class="login" href="login") Login
+				div#body-right-home
+					div#title-home
+						h2 !{title}
+					iframe(id="ifr" scrolling="no" frameborder="0" src="home" width="85%" height="443px")

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/manage.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../js/index.js"></script>
+	</head>
+	<body>
+		<div id="general-manage" class="manage">
+			<h3>About</h3>
+		<!--Manage Title-->
+			<p>Title
+				<a class="edit-title" href="#">Edit</a>
+				<div class="change-title">
+					<input type="text" value="Huong's Home Page">
+					<button name="save-title" type="button">Save</button>
+				</div>
+				
+			</p>
+		<!--Manage Contact-->
+			<p>Contact
+				<a class="edit-contact" href="#">Edit</a>
+				<div class="change-contact">
+					<textarea class="summernote" id="summernote"  >
+						Nguyen Thi Huong
+					   Faculty of Computer Science & Engineering
+					   Ho Chi Minh university of Technology
+					   Address: District 10, Ho Chi Minh city
+					   Phone: 0988-011-624
+					   E-mail: nguyenhuong709@gmail.com
+					</textarea>
+				</div>
+				<div id="save-about">
+					<button name="save-about" type="button">Save</button>
+				</div>
+			</p>
+		<!--Manage Background Image-->
+			<p>Background
+				<a class="edit-background-img" href="#">Edit</a>
+				<div class="change-background-img">
+					<input id="background-img" type="text" value=" "><br>
+					<button id="select-background-img" type="button">Select image</button>
+				</div>
+			</p>
+			
+		</div>
+	</body>
+</html>

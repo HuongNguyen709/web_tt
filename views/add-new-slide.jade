@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/manage.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="../js/index.js")
+	body
+		div#general-manage
+		.manage
+			h3 Slide
+			form(action="/admin/upload/new-slide?id=#{subject._id}" method = "POST" enctype="multipart/form-data")
+				input(id = "" type = "text" name = "name")
+				input(id="new-slide" type="file" name = "slide")
+				input(id= "add-slide" type="submit" value="Add")

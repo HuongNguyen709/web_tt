@@ -1,0 +1,50 @@
+body{
+	background-color: white;
+}
+#content-slide{
+	position: relative;
+	line-height: 25px;
+	position: relative;
+	margin-left: 5%;
+}
+#content-slide a{
+	position: relative;
+	text-decoration: none;
+	font-size: 120%;
+	text-align: center;
+	margin-left: 100px;
+}
+#img-ava {
+	position: relative;
+	display: block;
+	float: right;
+	text-align:right;
+	height: 300px;
+	width: 250px;
+}
+#information{
+	position: relative;
+	font-size: 120%;
+	line-height: 25px;
+	
+}
+.body-login{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	width: 70%;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+#login-form{
+	
+	margin-bottom: 50px;
+}
+#user-img{
+	width: 200px;
+	height: 200px;
+}
+#password{
+	height: 25px;
+	
+}

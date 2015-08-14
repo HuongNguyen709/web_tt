@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/test.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+	body
+		div.body-login
+			img(id="user-img" src="../img/user.png")
+			h1 Huong Nguyen
+			form(action ="/login" method = "POST" name="login-form" id="login-form")
+				input(id="password" type="password" placeholder="Password:" name="password")
+				button(type = "submit") Login
+			a(class="lost-password" href="#") Lost your password!
+		script(src="../js/login.js")

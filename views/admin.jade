@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title Huong's Home Page
+		link(rel="stylesheet" href="../css/main.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="../js/index.js")
+	body
+		div#homepage
+			div.left-home
+				div#header-left-home
+					a(href="#")
+						img(id="img-home" src="../img/home.jpg")
+				hr
+				div#body-left-home
+					div#manage-subjects
+						a(id="subject" href="#")
+							h3 Manage Subjects
+					div#manage-account
+						a(id="account" href="#")
+							h3 Manage Account
+					div#manage-about
+						a(id="about" href="#")
+							h3 Manage About
+			div.right-home
+				div#header-right-home
+					a(id="huongnguyen" href="#") #{info_name.name}
+					a(id="logout" href="login") (Logout)
+				div#body-right-home
+					iframe(id="ifr-ad" scrolling="no" frameborder="0" src="login-success" width="85%" height="500px")

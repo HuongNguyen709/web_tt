@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" href="../css/manage.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="../js/index.js")
+	body
+		div#general-manage
+		.manage
+			h3 Reference
+			form(action = "/admin/upload/new-reference?id=#{subject._id}" method = "POST" enctype="multipart/form-data")
+				input(id = "new-ref" type="file" name = "reference")
+				input(type="submit" value = "Add")

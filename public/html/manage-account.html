@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/manage.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../js/index.js"></script>
+	</head>
+	<body>
+		<div id="general-manage" class="manage">
+			<h3>Account</h3>
+		<!--Manage Name-->
+			<p>Huong Nguyen
+				<a class="edit-name" href="#">Edit</a>
+				<div class="change-name">
+					Firstname: <input id="firstname" type="text" name="firstname"><br>
+					Lastname: <input id="lastname" type ="text" name="lastname"><br>
+					Nickname: <input id="nickname" type="text" name="nickname"><br>
+					<form>
+						<button class="save-name" type="button">Save</button>
+						<button class="cancel-name" type="button">Cancel</button>
+					</form>
+				</div>
+			</p>
+		<!--Manage Password-->
+			<p> Password
+				<a class="edit-password" href="#">Edit</a>
+				<div class="change-password">
+					Current password: <input id="current-password" type="password" name="current-password"><br>
+					New password: <input id="new-password" type="password" name="new-password"><br>
+					Repeat password: <input id="repeat-password" type="password" name="repeat-password">
+					<form>
+						<button class="save-password" type="button">Save</button>
+						<button class="cancel-password" type="button">Cancel</button>
+					</form>
+				</div>
+			</p>
+		<!--Manage Avatar-->
+			<p>Avatar
+				<a class="edit-avatar-img" href="#">Edit</a>
+				<div class="change-avatar-img">
+					<input id="avatar-img" type="text" value=" "><br>
+					<button id="select-avatar-img" type="button">Select image</button>
+				</div>
+			</p>
+		</div>
+	</body>
+</html>
